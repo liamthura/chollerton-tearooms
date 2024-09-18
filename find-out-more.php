@@ -132,8 +132,7 @@
             if ($subSts) {
                 $_SESSION['isSubmitted'] = true;
                 //redirecting to other page only if all requirements are met and form is successfully submitted
-                header('Location: form-success.php');
-                die();
+                echo "<script>location.href='form-success.php';</script>";
             }
             ?>
             <form name="interest-register-form" id="interestRegisterForm" action="find-out-more.php" method="post">
