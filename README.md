@@ -4,4 +4,4 @@
 + uses PHP for server-side processing (connection with database)
 + vanila code
 
-Accessible at: [Chollerton Tearooms](lproj.chollerton.khantthura.com)
+Accessible at: [Chollerton Tearooms](https://lproj.chollerton.khantthura.com)
