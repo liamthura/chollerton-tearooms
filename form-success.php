@@ -7,7 +7,7 @@ include "header.php";
 // to destroy session and prevent leftover data in session
 if (isset($_GET['done']) and $_GET['done']) {
     session_destroy();
-    header('Location: index.php');
+    echo "<script>location.href='index.php';</script>";
 }
 ?>
 
